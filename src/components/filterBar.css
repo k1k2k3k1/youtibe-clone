@@ -1,0 +1,31 @@
+.filterBar{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding: 0.5rem 0rem;
+    padding-right: 2.5rem;
+    font-weight: 400;
+}
+.filterBar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.filterBar li{
+    font-size: 0.8rem;
+    list-style: none;
+    border: 1px solid lightgray;
+    padding: 1px 8px;
+    background-color: rgb(243, 241, 241);
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+.filterBar ul .main{
+    color: white;
+    background-color: rgb(43, 41, 41);
+    font-weight: 500;
+    cursor: pointer;
+}
+.filterBar li:hover{
+    background-color: rgb(216, 215, 215);
+    font-weight: 500;
+    cursor: pointer;
+}
